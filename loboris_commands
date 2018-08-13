@@ -1,0 +1,8 @@
+# ukázat soubory
+ampy -p /dev/ttyUSB0 ls /flash
+
+# smazat main.py
+ampy -p /dev/ttyUSB0 rm /flash/main.py
+
+# nahraj subscriber jako main.py
+ampy -p /dev/ttyUSB0 put subscriber.py /flash/main.py

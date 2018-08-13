@@ -1,0 +1,1 @@
+mosquitto_pub -h io.adafruit.com -p 1883 -u Daskyleia -P a552b53b29cb4cc2a2567d2739393c1d -t Daskyleia/feeds/temperature -m "126"

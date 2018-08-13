@@ -1,0 +1,6 @@
+Plán projektů s ESP
+
+1. Ochočení mqtt (obousměrně) - ochočeno publish, ještě ochočit subscribe
+2. Sběrnice i2c, spi, uart
+3. Provoz na baterii, deep sleep a probouzení
+4. Psaní knihoven
