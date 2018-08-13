@@ -3,7 +3,7 @@ from machine import I2C, Pin
 
 i2c = I2C(scl=Pin(18), sda=Pin(19), freq=100000)
 
-d = ssd1306.SSD1306_I2C(128, 64, i2c)
+d = SSD1306_I2C(128, 64, i2c)
 
 d.text("ahoj", 10, 10)
 d.show()
