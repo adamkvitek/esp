@@ -1,6 +1,6 @@
 semgrep:
   image: returntocorp/semgrep-agent
-  script: semgrep ci
+  script: semgrep-agent
   variables:
     SEMGREP_RULES: >- # more at semgrep.dev/r
       p/security-audit
