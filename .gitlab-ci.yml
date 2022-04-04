@@ -1,5 +1,5 @@
 semgrep:
-  image: returntocorp/semgrep
+  image: returntocorp/semgrep-agent
   script: semgrep ci
   variables:
     SEMGREP_RULES: >- # more at semgrep.dev/r
