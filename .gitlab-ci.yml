@@ -5,6 +5,7 @@ semgrep:
     SEMGREP_RULES: >- # more at semgrep.dev/r
       p/security-audit
       p/secrets
+    GITLAB_TOKEN: $PAT
   rules:
   - if: $CI_MERGE_REQUEST_IID
   - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
